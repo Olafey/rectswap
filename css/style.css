@@ -146,3 +146,18 @@ svg.members_avatar {
   height: 66px;
   margin-left: -7px;
 }
+
+.section2_container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgb(52, 28, 75);
+}
+
+.secure_priv {
+  display: inline-block;
+  color: white;
+  font-size: 30px;
+}
