@@ -149,8 +149,7 @@ svg.members_avatar {
 
 .section2_container {
   width: 100%;
-  height: 400px;
-  display: flex;
+  height: min-content;
   background-color: rgb(20, 10, 30);
 }
 
@@ -160,4 +159,69 @@ svg.members_avatar {
   color: white;
   font-size: 30px;
   text-align: center;
+}
+
+p.dedicated_support {
+  color: rgb(111, 114, 117);
+  margin-top: -35px;
+}
+
+.cards_container {
+  width: 100%;
+  display: flex;
+}
+
+.card1 {
+  width: 30%;
+  display: inline-block;
+  height: 300px;
+  background-color: rgb(53, 30, 51);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  text-align: center;
+  margin-left: 35px;
+  padding-bottom: 40px;
+  margin-bottom: 140px;
+  margin-top: 50px;
+}
+
+.card1:hover {
+  background-color: #3b1c58;
+  color: white;
+}
+
+.card_logo_container {
+  width: 100%;
+  height: 140px;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -70px;
+}
+
+h4.card_header {
+  color: white;
+  font-size: 25px;
+}
+
+p.inner_text {
+  color: rgb(223, 209, 209);
+  margin: 20px 20px 10px 20px;
+}
+
+a.card_link {
+  text-decoration: none;
+  color: #8a2be2;
+}
+
+p.get_text_mt {
+  margin-top: 30px;
+}
+
+span.get_icon,
+span.get_text {
+  vertical-align: center;
+  display: inline-block;
 }
