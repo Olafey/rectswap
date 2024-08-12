@@ -268,3 +268,8 @@ img.right_image {
   height: 350px;
   width: auto;
 }
+
+.cards_container_sub {
+  background-color: #1b0a2c;
+  margin-top: 180px;
+}
