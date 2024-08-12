@@ -225,3 +225,46 @@ span.get_text {
   vertical-align: center;
   display: inline-block;
 }
+
+.content2_container {
+  width: 100%;
+  display: flex;
+  height: auto;
+}
+
+.left_content2 {
+  width: 55%;
+  margin-left: 35px;
+  font-size: 35px;
+  color: white;
+}
+
+p.inner_text_content2 {
+  color: grey;
+  font-size: 22px;
+  margin-top: -30px;
+}
+
+button.explore_button2 {
+  width: 25%;
+  font-size: 15px;
+  background-color: rgba(54, 11, 94, 0);
+  padding: 13px 35px;
+  border: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+.right_content2_image {
+  width: 45%;
+  display: flex;
+  margin-top: -5px;
+}
+
+img.right_image {
+  height: 350px;
+  width: auto;
+}
