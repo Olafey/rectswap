@@ -275,3 +275,8 @@ img.right_image {
   margin-top: 150px;
   padding-top: 70px;
 }
+
+h4.card_header2 {
+  font-size: 25px;
+  color: #69b0dd;
+}
