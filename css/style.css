@@ -2,6 +2,7 @@ body {
   margin: 0px;
 }
 
+/* FOR THE MAIN SCREEN */
 .main_container {
   width: 100%;
 }
@@ -271,5 +272,6 @@ img.right_image {
 
 .cards_container_sub {
   background-color: #1b0a2c;
-  margin-top: 180px;
+  margin-top: 150px;
+  padding-top: 70px;
 }
