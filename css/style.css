@@ -229,7 +229,6 @@ span.get_text {
 
 .content2_container {
   width: 100%;
-  display: flex;
   height: auto;
 }
 
@@ -271,6 +270,9 @@ img.right_image {
 }
 
 .cards_container_sub {
+  width: 100%;
+  display: flex;
+  height: min-content;
   background-color: #1b0a2c;
   margin-top: 150px;
   padding-top: 70px;
@@ -279,4 +281,14 @@ img.right_image {
 h4.card_header2 {
   font-size: 25px;
   color: #69b0dd;
+}
+
+.closure {
+  width: 100%;
+  text-align: center;
+}
+
+p.closure_text {
+  color: white;
+  font-size: 30px;
 }
