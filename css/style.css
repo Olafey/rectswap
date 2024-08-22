@@ -1,5 +1,7 @@
 body {
+  width: 100%;
   margin: 0px;
+  padding: 0px;
 }
 
 /* FOR THE MAIN SCREEN */
@@ -19,7 +21,6 @@ body {
 .nav_container {
   width: 100%;
   display: flex;
-  position: fixed;
 }
 
 .logo_container {
@@ -131,6 +132,9 @@ button.learn_more_button {
   border-radius: 15px;
   color: white;
   border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+.right_content_image_container {
+  width: 50%;
 }
 
 img.right_content_image {
@@ -293,4 +297,18 @@ h4.card_header2 {
 p.closure_text {
   color: white;
   font-size: 30px;
+}
+
+@media screen and (min-width: 1123px) {
+  .main_container {
+    width: 100%;
+  }
+  .container1 {
+    width: 100%;
+    height: min-content;
+    margin: 0px;
+    background-image: url(/img/bg_img3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 }
