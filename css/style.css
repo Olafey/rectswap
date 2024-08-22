@@ -19,6 +19,7 @@ body {
 .nav_container {
   width: 100%;
   display: flex;
+  position: fixed;
 }
 
 .logo_container {
@@ -230,6 +231,7 @@ span.get_text {
 .content2_container {
   width: 100%;
   height: auto;
+  display: flex;
 }
 
 .left_content2 {
