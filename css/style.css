@@ -311,4 +311,39 @@ p.closure_text {
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  .nav_container {
+    width: 100%;
+    display: flex;
+  }
+
+  .logo_container {
+    width: 10%;
+    display: flex;
+  }
+
+  img.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* MOBLE SCREEN RESPONSIVENESS */
+@media screen and (max-width: 350px) and (min-width: 150px) {
+  .main_container {
+    width: 100%;
+  }
+  .container1 {
+    width: 100%;
+    height: min-content;
+    margin: 0px;
+    background-image: url(/img/bg_img3.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  .nav_container {
+    width: 100%;
+    display: flex;
+  }
 }
