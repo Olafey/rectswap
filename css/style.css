@@ -344,6 +344,17 @@ p.closure_text {
   }
   .nav_container {
     width: 100%;
+    display: block;
+  }
+
+  .logo_container {
+    width: 10%;
     display: flex;
+  }
+
+  img.logo {
+    display: flex;
+    width: 100px;
+    height: 100px;
   }
 }
