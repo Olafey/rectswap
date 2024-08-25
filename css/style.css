@@ -357,4 +357,11 @@ p.closure_text {
     width: 100px;
     height: 100px;
   }
+
+  .explore_button_container {
+    width: 20%;
+    margin-top: 30px;
+    margin-left: 300px;
+    display: none;
+  }
 }
